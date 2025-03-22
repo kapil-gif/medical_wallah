@@ -1,0 +1,366 @@
+body{
+    background-color: #A6CDC6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#navdiv{
+    background-color: #16404D ;
+    width: 100%;
+    height: auto;
+    color: white;
+
+    
+}
+.textnav{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+     align-items:center; /*text center*/
+    padding-left: 200px; 
+    padding-top: 10px;
+    padding-right: 120px;
+    
+     
+}
+
+fieldset{
+    width: 511px;
+    height: auto;
+    font-size: 30px;
+    background: rgb(252, 252, 253);
+    /* margin-left: 481px; */
+    border-radius: 44px;
+    margin-top: 150px;
+    color: black;
+position: absolute;
+    /* left: 315px; */
+    top: 100px;
+    right: 100px;
+    text-align: center;
+
+}
+
+
+fieldset select{
+    height: 45px;   
+    width: 400px;  
+    margin: 15px;
+}
+fieldset input{
+  height: 45px;   
+  width: 400px;  
+  margin: 15px;
+  placeholder{
+      font-size: 10px;
+  }
+}
+
+fieldset button{
+
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    font-size: 25px;
+    justify-items: center;
+    
+}
+button:hover{
+    background-color: burlywood;
+} 
+
+/* img */
+.img{
+    width: 550px;
+    height: 500px; 
+    position: absolute;
+    top: 160px;
+    margin-left: 220px;
+     /* margin-top: -616px; */
+} 
+.mainsection{
+    display: flex;
+    
+}
+
+.down{
+    width: 450px;
+    margin-left:270px ;
+    margin-top: 530px ;
+    align-items: center;
+    font-size: 20px;
+    align-items: center;
+    
+
+}
+.this24{
+padding-left: 100px;
+    color: brown;
+}
+.flagimg{
+    width: 60px;
+    height: 60px;
+    margin-left: 320px ;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flagimg img {
+    margin-right: 10px; /* Adjust the value to set the space between flags */
+  }
+  
+input , select{
+    font-size: 20px;
+}
+
+#paregrap{
+    font-size: 32px;
+    margin-left: 100px;
+    color: black;
+    padding-top: 30px;
+}
+ .paregrap2{
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 40px;
+    span{
+        padding-left: 200px;
+    }
+ }
+ .collegebox{
+    width: 1500px;
+    height: 300px;
+    background-color: white;
+    /* border: 2px solid; */
+    margin-left: 250px;
+    margin-top: 300px;
+
+    position: absolute;
+    top: 800px;
+    /* justify-content: space-between; */
+ }
+ 
+ .cologelogo{
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background: red; */
+ }
+ 
+
+marquee{
+    width: auto;
+    direction: right;
+    height: 100%;
+    animation: marquee 1s linear infinite;
+
+}
+
+  .Box1{
+     width:100%;
+     height: 1000px;
+     background: #d5e2e0;
+     
+     position: absolute;
+     top: 1243px;
+     display: flex;
+     flex-wrap: wrap;
+     
+    
+ } 
+ .under{
+    margin-top: 250px;
+ }
+ .h4box{
+    display: flex;
+     justify-content: space-evenly; 
+     /* background-color: white; */
+
+    
+ }
+.boxShadow{
+    font-size: 25px;
+    height:auto;
+    width: auto;
+    box-shadow: #f5f5f5e8 0px 3px 8px;
+    margin: 30px;
+    padding: 50px;
+    /* border: 2px solid black; */
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   display: flex;
+   /* justify-content: space-between; */
+   transform: scale(1);
+}
+.boxShadow:hover{
+    transform: scale(1.2);
+}
+.sticker{
+    
+    margin-right: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.colegeHead{
+     margin-top: 35px;
+font-size: 45px;
+font-style: initial;
+    text-align: center;
+}
+
+.bgimg{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top:1258px;
+}
+
+.table{
+    background: white;
+    position: relative;
+    top: 550px;
+    left: 930px;
+    width: 800px;
+    height: auto;
+    /* padding: 20px; */
+     border-collapse: collapse;
+
+     /* margin: 20px auto; */
+     font-size: 40px;
+     text-align: left;
+     background: #f8f9fa;
+     border-radius: 10px;
+     /* overflow: hidden; */
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    
+    padding: 12px;
+    /* text-transform: uppercase;    */
+}
+tr:hover{
+    transform: scale(1.02);
+
+}
+ .itag{
+    
+    text-align: center;
+}
+
+table, th, td {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    /* border-bottom: none; */
+  }
+  .tabelheading{
+    position: relative;
+    top: 500px;
+    /* left: 1100px; */
+    font-size: 55px;
+    color: white;
+     font-weight:bold;  }
+
+/* box talking */
+
+.talkcounclerbox{
+        width: 500px;
+        height: 100px;
+        background: rgb(143, 143, 5);
+        /* margin-top: 300px; */
+        position: relative;
+        top: 710px;
+        left: 700px;
+        border-radius: 51%;
+        text-decoration:none;
+        h4{
+            font-size: 35px;
+            text-align: center;
+            padding-top: 30px;
+
+        }        
+}
+
+.headingcontain{
+     position: relative;
+    top: 800px;
+    margin-left: 480px; 
+     font-size: 60px;
+     
+} 
+.colorbox{
+    position: relative;
+     top: 850px;
+    /* left: 430px; */
+    margin-left: 485px;
+     
+} 
+.countryname{
+    margin: 35px;
+    font-size: 28px;
+}
+
+
+ .downimg{
+    background: url(a1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    width: 95rem;
+    height: 35rem;
+    background-color: bisque;
+ 
+    margin-left: 300px;
+    position: relative;
+        top: 1000px;
+   
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ } 
+ .boximg{
+    height: 700px;
+    width: 1500px;
+    /* margin-left: 0; */
+    
+        position: relative;
+        top: 500px;
+        
+}
+.underbox {
+    color: blue;
+    width: 500px;
+    height: auto;
+    /* margin-left: 500px ; */
+    padding: 50px;
+    background: white;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border-radius: 5px;
+}
+
+.underbox h4  {
+    font-size: 38px;
+}
+.underbox p{
+    margin: 10px;
+    font-size: 25px;
+}
+.getfree{
+    font-size: 25px;
+    width: 400px;
+    height: 40px;
+    margin-left: 0px;
+    background: rgb(143, 143, 5);
+}
